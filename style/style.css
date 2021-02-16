@@ -1,10 +1,11 @@
 * {
 	box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body, h1, p {
-	margin: 0;
+h1, body, p, li, ul, ol {
 	padding: 0;
+	margin: 0;
 }
 
 header {
@@ -31,12 +32,51 @@ nav > a:hover{
 
 .actual {
 	font-weight: bold;
+	padding: 25px 20px 25px 20px;
 }
 
 .informativa {
 	background-color: #f87500;
+
+	padding: 15px 20px 15px 20px;
+	align-items: center;
 }
 
 .contenido {
 	background-color: #ff8d27;
+
+  height: 100vh;
+	padding: 25px 20px 25px 20px;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+}
+
+.total {
+	padding: 10px;
+	font-size: 20px;
+	border-top: solid 1px #ccc;
+	text-align: right;
+}
+
+article > input {
+	width: 10vw;
+}
+
+article > p {
+	width: 60vw;
+}
+
+article > .precio {
+	width: 20vw;
+}
+
+article > i {
+	width: 10vw;
+}
+
+.tachado {
+	text-decoration: line-through;
 }
