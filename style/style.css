@@ -17,6 +17,7 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding: 25px 20px 25px 20px;
 }
 
 nav > a {
@@ -32,13 +33,16 @@ nav > a:hover{
 
 .actual {
 	font-weight: bold;
-	padding: 25px 20px 25px 20px;
 }
 
 .informativa {
 	background-color: #f87500;
 
 	padding: 15px 20px 15px 20px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -59,6 +63,9 @@ article {
 	font-size: 20px;
 	border-top: solid 1px #ccc;
 	text-align: right;
+}
+form {
+	padding: 0 0 20px 0;
 }
 
 article > input {
